@@ -8,7 +8,7 @@
 
 -Язык: Python 3.12
 
--Библиотеки: Vkbottle
+-Библиотеки: в requirements.txt
 
 -ML: OpenAI Whisper (Local Edition)
 
