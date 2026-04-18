@@ -1,0 +1,8 @@
+vkbottle==4.4.1
+openai-whisper
+celery
+redis
+requests
+python-dotenv
+fastapi
+uvicorn
