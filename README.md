@@ -16,12 +16,14 @@
 
 Ключевые фичи:
 
--Локальная расшифровка аудио (Whisper), не требующая внешних облаков.
+-Локальная расшифровка аудио (Whisper).
 
 -Мгновенный отклик бота благодаря очереди задач.
 
 Установка и запуск:
 
-pip install -r requirements.txt
-python -m celery -A tasks_vk worker --loglevel=info -P solo
-python vk_bot
+pip install -r requirements.txt;
+
+python -m celery -A tasks_vk worker --loglevel=info -P solo;
+
+python vk_bot;
